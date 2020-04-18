@@ -17,7 +17,7 @@ void reloj();
 
 int main ()
 {
-	system("COLOR F0");
+	system("COLOR 10");
 	menu();
 	system("pause");
 }
@@ -25,6 +25,7 @@ void menu()
 {
 	 system ("cls");
 	 cout << "\n\n Reloj Checador Encosta S.A de C.V";
+	 cout << "\n---------------------------------------";
 	 cout << "\n\n (1) Hora de llegada";
 	 cout << "\n (2) Registrar un usuario";
 	 cout << "\n (3) Ver horarios del dia";
